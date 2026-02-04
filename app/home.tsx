@@ -26,7 +26,18 @@ export default function Home() {
         <TouchableOpacity style={styles.card} onPress={() => alert("About")}>
           <Text style={styles.cardText}>About</Text>
         </TouchableOpacity>
-
+        <TouchableOpacity
+          style={styles.card}
+          onPress={() => router.push("/randomuser")}
+        >
+          <Text style={styles.cardText}>Random User</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.card}
+          onPress={() => router.push("/meme")}
+        >
+          <Text style={styles.cardText}>Meme Generator</Text>
+        </TouchableOpacity>
         <TouchableOpacity
           style={styles.card}
           onPress={() => router.replace("/login")}

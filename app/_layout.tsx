@@ -5,9 +5,10 @@ export default function Layout() {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="index" />
       <Stack.Screen name="login" />
-      <Stack.Screen name="register" />
       <Stack.Screen name="home" />
       <Stack.Screen name="profile" />
+      <Stack.Screen name="randomuser" />
+      <Stack.Screen name="meme" />
     </Stack>
   );
 }
