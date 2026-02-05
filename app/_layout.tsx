@@ -1,4 +1,14 @@
+import * as Notifications from "expo-notifications";
 import { Stack } from "expo-router";
+
+Notifications.setNotificationHandler({
+  handleNotification: async () =>
+    ({
+      shouldShowAlert: true,
+      shouldPlaySound: true,
+      shouldSetBadge: false,
+    }) as Notifications.NotificationBehavior,
+});
 
 export default function Layout() {
   return (

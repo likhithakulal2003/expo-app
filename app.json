@@ -12,6 +12,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.saas360.myapp",
+      "useNextNotificationApi": true,
+      "googleServiceFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "api_key": "AIzaSyBf7DG7Ln8nsqSIKZhVOfaxcVIAKkJ65_Q"
+        }
+      },
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -27,6 +35,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
       [
         "expo-splash-screen",
         {
@@ -43,6 +52,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "32d2ef4e-0c44-47c4-a566-ce507b74f971"
+      }
+    },
+    "owner": "likhithak"
   }
 }

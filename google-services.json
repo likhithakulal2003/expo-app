@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "759238696327",
+    "project_id": "myexpoapp-a60eb",
+    "storage_bucket": "myexpoapp-a60eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759238696327:android:3fabe258f4d4a67a8a8722",
+        "android_client_info": {
+          "package_name": "com.saas360.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf7DG7Ln8nsqSIKZhVOfaxcVIAKkJ65_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
